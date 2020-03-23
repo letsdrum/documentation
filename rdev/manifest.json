@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/s.verbin/Desktop/local repository/RDEV.AutoTests/docfx_project",
+  "source_base_path": "C:/Users/s.verbin/Desktop/local repository/RDEV.Documenation/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.CompareObjects.Entity.html",
-          "hash": "8dmLmTi/VW8mx+j7NGhRuw=="
+          "hash": "ib1dPlhhHB74/ubL+xN1dA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.CompareObjects.EntityList.html",
-          "hash": "j42AeDB8/idaU+8Wdzwviw=="
+          "hash": "WmpQitCzkkw+D9ta+SE9/g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.CompareObjects.EntityRequest.html",
-          "hash": "2VKDSoUYqWYKbKqaqOeWiw=="
+          "hash": "zGScHWKAu2K79hLYf4ouNw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Interfaces.IBrowser.html",
-          "hash": "eArIyq5LRLDWWD1vt4NvEg=="
+          "hash": "8rxsBBHygX+CqQD3hYLs3w=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Interfaces.ISysString.html",
-          "hash": "c4ZnNsKe9wfOt7o2J8Fbsg=="
+          "hash": "/aZbBKKUiR+La5ADgIHAbw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Interfaces.IType.html",
-          "hash": "Khnd4lGkIIgHAIdFSBY+8w=="
+          "hash": "A2k0DxGZNcp5DVDj+DB4lA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,19 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Types.Browser.html",
-          "hash": "rqARzNyQGkhw7tAigox9rA=="
+          "hash": "pq64H3pb58ksB1rc8O3bhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.AutoTests.Model.Types.SysStringItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.AutoTests.Model.Types.SysStringItem.html",
+          "hash": "1GCyN7qVECDzUapKl9E5lw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Types.SysStringPage.html",
-          "hash": "NltWGe+dYQ9NovSpXVkn1g=="
+          "hash": "3ELGHnKw/wlJVqNCWzDcfQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.Types.html",
-          "hash": "XspnHthxqqo2qLQFP9/cqw=="
+          "hash": "XeW+u/ZAkIyWDExo2GF9sw=="
         }
       },
       "is_incremental": false,
@@ -141,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.XpathObjects.ButtonXpath.html",
-          "hash": "nmx8N0Vm37649f4QjXGypQ=="
+          "hash": "kMYWHEMIgLr3/wqWUK8vag=="
         }
       },
       "is_incremental": false,
@@ -153,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.XpathObjects.Sidebar.html",
-          "hash": "OQE7JFVGQToxwRNz0My4KQ=="
+          "hash": "CyvgCPxfjkYKuPU58bHa9g=="
         }
       },
       "is_incremental": false,
@@ -165,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.XpathObjects.SingInXpath.html",
-          "hash": "e+e5d532nGY8MP3tiG77Sg=="
+          "hash": "eFLlAa7iywro5PkjHRz9/g=="
         }
       },
       "is_incremental": false,
@@ -177,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.XpathObjects.Utils.html",
-          "hash": "o5GWJDCwxNyw+/JEER2U5g=="
+          "hash": "Ww979MRBCrPtElK+EW91xw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.AutoTests.Model.XpathObjects.XpathData.html",
-          "hash": "E6ggDiZP4uaLMToK0idp5w=="
+          "hash": "LHNW3hDwXpeDuVLjT+1O5g=="
         }
       },
       "is_incremental": false,
@@ -213,7 +225,79 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.NUnitTests.AddFuncRdev.html",
-          "hash": "Gw3crUw6y3BYnSHJMGMe4g=="
+          "hash": "1G9hLRrh7dpVE5dvZ7nOUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.DeleteFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.DeleteFuncRdev.html",
+          "hash": "mOvgg4sSlmTT09pU0De8Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.EditFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.EditFuncRdev.html",
+          "hash": "cFyAE8IcGVxDONbyKbkuhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.ExportFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.ExportFuncRdev.html",
+          "hash": "aapqFu2oNVQXZZjss3vRMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.FilterFieldsFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.FilterFieldsFuncRdev.html",
+          "hash": "tB6JAU5P399DRmjxznIkNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.ImportFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.ImportFuncRdev.html",
+          "hash": "AABhqMIF77eVieByASEICg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RDEV.NUnitTests.SortColumnsFuncRdev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RDEV.NUnitTests.SortColumnsFuncRdev.html",
+          "hash": "cKAYcIXvYxv5u5tZtIFyWw=="
         }
       },
       "is_incremental": false,
@@ -225,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RDEV.NUnitTests.html",
-          "hash": "0y0i6M99oszaehKI/RWAzg=="
+          "hash": "0FH9VoLX/Xf35xi7rxW0iQ=="
         }
       },
       "is_incremental": false,
@@ -237,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "MDXOBwL0nM36zlY/t7rG+g=="
+          "hash": "GxldzMmRe12qoqPdJx9YOQ=="
         }
       },
       "is_incremental": false,
@@ -249,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "q5F7jxHR8gBVJibKZAhlzQ=="
+          "hash": "jTIHEFXRVCGIWOrVoKS/jg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "gXRSk6p1hUI8y+SsIEwL1Q=="
+          "hash": "pvqsBCGnh+dN0xPWczUvAQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+wpArNDq6oMKtjNMZPXYhA=="
+          "hash": "dx2bfI3/tsZ/rZ4e0hw38Q=="
         }
       },
       "is_incremental": false,
@@ -325,7 +409,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 19,
+          "total_file_count": 26,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
