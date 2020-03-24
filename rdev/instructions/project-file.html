@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#1056;&#1072;&#1073;&#1086;&#1090;&#1072; &#1089; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1085;&#1099;&#1084; &#1092;&#1072;&#1081;&#1083;&#1086;&#1084; | &#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1072;&#1094;&#1080;&#1103; &#1072;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1076;&#1083;&#1103; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072; RDEV </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#1056;&#1072;&#1073;&#1086;&#1090;&#1072; &#1089; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1085;&#1099;&#1084; &#1092;&#1072;&#1081;&#1083;&#1086;&#1084; | &#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1072;&#1094;&#1080;&#1103; &#1072;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1076;&#1083;&#1103; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072; RDEV ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="работа-с-проектным-файлом">Работа с проектным файлом</h1>
+
+<h2 id="подключение-контекстного-меню">Подключение контекстного меню</h2>
+<p>Необходимо дать доступ кастомному меню</p>
+<pre><code>&quot;objects&quot;: [
+    &quot;mainMenu&quot;,
+    &quot;customContextMenu1&quot;
+]
+</code></pre>
+<p>Далее необходимо описать, что будет находится в контекстном меню при его вызове</p>
+<pre><code>{
+    &quot;name&quot;: &quot;customContextMenu1&quot;,
+    &quot;title&quot;: &quot;Тестовое контекстное меню&quot;,
+    &quot;hint&quot;: &quot;Тестовое контекстное меню&quot;,
+    &quot;typeMenuItem&quot;: &quot;Submenu&quot;,
+    &quot;submenuItems&quot;: [
+        {
+          &quot;name&quot;: &quot;testMenuItem1&quot;,
+          &quot;title&quot;: &quot;Тестовый пункт 1&quot;,
+          &quot;typeMenuItem&quot;: &quot;Method&quot;,
+          &quot;object&quot;: &quot;test_success&quot;
+        }
+    ]
+}
+</code></pre>
+<p>После этого необходимо указать в свойстве menu какой-нибудь таблицы созданное контекстное меню</p>
+<pre><code>{
+    &quot;name&quot;: &quot;menu_test_table&quot;,
+    &quot;displayName&quot;: &quot;Название таблицы&quot;,
+    &quot;description&quot;: &quot;Описание таблицы&quot;,
+    &quot;fields&quot;: [
+        {
+          &quot;name&quot;: &quot;sysstring_field&quot;,
+          &quot;type&quot;: &quot;SysString&quot;,
+          &quot;displayName&quot;: &quot;Тестовое поле&quot;
+        }
+    ],
+    &quot;menus&quot;: [&quot;customContextMenu1&quot;]
+}
+</code></pre>
+<p>После этого, зайдя в таблицу <code>menu_test_table</code>, нажав правой кнопкой мыши на какую-нибудь запись, получим контекстное с меню со стандартным набором функций: <code>Редактировать</code> и <code>Удалить</code>, а также увидим новую функцию под названием <code>Тестовый пункт 1</code>, которую мы определили в <code>customContextMenu1</code>.</p>
+<h2 id="подключение-методов">Подключение методов</h2>
+<h2 id="подключение-динамических-форм">Подключение динамических форм</h2>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Developed by <strong>Sergey Verbin</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
