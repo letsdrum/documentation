@@ -1,5 +1,9 @@
 # Automation RDEV
 
+## Documentation
+
+[GitHub Pages Online](https://letsdrum.github.io/documentation/rdev)
+
 ## Проблема
 При выходе новой сборки необходимо проводить регрессионное тестирование веб-приложения. На это тратится очень много времени, так как на один тип данных в RDEV уходит около **60 минут**. В год выходит **26 часов**.
 
@@ -10,7 +14,3 @@
 ## Цель
 
 Повысить скорость за счет автоматизированного тестирования RDEV.
-
-## Documentation
-
-[GitHub Pages Online](https://letsdrum.github.io/documentation/rdev)
