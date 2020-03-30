@@ -107,13 +107,13 @@
   <h3 id="constructors">Constructors
   </h3>
   <a id="RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor*"></a>
-  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_System_String_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(System.String)">EntityList(String)</h4>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_RDEV_AutoTests_Model_Types_Browser_System_String_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(RDEV.AutoTests.Model.Types.Browser,System.String)">EntityList(Browser, String)</h4>
   <div class="markdown level1 summary"><p>Конструктор класса EntityList с входящим параметром Token</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityList(string Token)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityList(Browser Browser, string Token)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,14 +126,69 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="RDEV.AutoTests.Model.Types.Browser.html">Browser</a></td>
+        <td><span class="parametername">Browser</span></td>
+        <td><p>Объект класса, реализующий интерфейс IBrowser</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">Token</span></td>
-        <td></td>
+        <td><p>Токен</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_BASE_URL_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_BASE_URL" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL">BASE_URL</h4>
+  <div class="markdown level1 summary"><p>Свойство для хранения URL</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BASE_URL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_Browser_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.Browser*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_Browser" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.Browser">Browser</h4>
+  <div class="markdown level1 summary"><p>Свойство IBrowser для хранения объекта интерфейса IBrowser.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Browser Browser { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RDEV.AutoTests.Model.Types.Browser.html">Browser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_Entities_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.Entities*"></a>
   <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_Entities" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.Entities">Entities</h4>
   <div class="markdown level1 summary"><p>Свойство списка сущностей запроса</p>
@@ -210,14 +265,56 @@ public string OdataContext { get; set; }</code></pre>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetEntities_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities*"></a>
-  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetEntities" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities">GetEntities()</h4>
-  <div class="markdown level1 summary"><p>Статический метод GetEntities(). Позволяет получить список объектов типа EntityList.</p>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetDataColumnFromTable_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetDataColumnFromTable_System_Int32_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable(System.Int32)">GetDataColumnFromTable(Int32)</h4>
+  <div class="markdown level1 summary"><p>Метод для получения значений указанного столбца.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;EntityList&gt; GetEntities()</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetDataColumnFromTable(int NumberOfColumn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">NumberOfColumn</span></td>
+        <td><p>Номер столбца. Принимаем 1, 2, 3</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetEntities_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetEntities" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities">GetEntities()</h4>
+  <div class="markdown level1 summary"><p>Метод GetEntities(). Позволяет получить список объектов типа EntityList.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;EntityList&gt; GetEntities()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,14 +332,14 @@ public string OdataContext { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastEntity_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity*"></a>
-  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastEntity" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity">GetLastEntity()</h4>
-  <div class="markdown level1 summary"><p>Статический метод GetLastEntity() для получения первого объекта из ответа запроса</p>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastRows_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastRows" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows">GetLastRows()</h4>
+  <div class="markdown level1 summary"><p>Метод для получения списка с 41 строкой из таблицы SysString с конца.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static EntityRequest GetLastEntity()</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EntityRequest&gt; GetLastRows()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,9 +351,80 @@ public string OdataContext { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="RDEV.AutoTests.Model.CompareObjects.EntityRequest.html">EntityRequest</a></td>
-        <td><p>Возвращает первый объект из ответа запроса</p>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="RDEV.AutoTests.Model.CompareObjects.EntityRequest.html">EntityRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetTableFromHTML_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_GetTableFromHTML" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML">GetTableFromHTML()</h4>
+  <div class="markdown level1 summary"><p>Метод для получения всех строк из таблицы SysString</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetTableFromHTML()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="RDEV_AutoTests_Model_CompareObjects_EntityList_IsSameValue_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue*"></a>
+  <h4 id="RDEV_AutoTests_Model_CompareObjects_EntityList_IsSameValue_System_String_System_String_" data-uid="RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue(System.String,System.String)">IsSameValue(String, String)</h4>
+  <div class="markdown level1 summary"><p>Метод для сравнения указанных параметров. Предполагается, что указанные значения принадлежат значениям строк из таблицы SysString.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSameValue(string FirstValue, string SecondValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">FirstValue</span></td>
+        <td><p>Первое значение</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SecondValue</span></td>
+        <td><p>Второе значение</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

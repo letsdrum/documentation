@@ -175,12 +175,12 @@ references:
   commentId: T:RDEV.AutoTests.Model.CompareObjects.EntityList
   fullName: RDEV.AutoTests.Model.CompareObjects.EntityList
   nameWithType: EntityList
-- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(System.String)
-  name: EntityList(String)
-  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_System_String_
-  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(System.String)
-  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.EntityList(System.String)
-  nameWithType: EntityList.EntityList(String)
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(RDEV.AutoTests.Model.Types.Browser,System.String)
+  name: EntityList(Browser, String)
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_RDEV_AutoTests_Model_Types_Browser_System_String_
+  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor(RDEV.AutoTests.Model.Types.Browser,System.String)
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.EntityList(RDEV.AutoTests.Model.Types.Browser, System.String)
+  nameWithType: EntityList.EntityList(Browser, String)
 - uid: RDEV.AutoTests.Model.CompareObjects.EntityList.#ctor*
   name: EntityList
   href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList__ctor_
@@ -188,6 +188,32 @@ references:
   isSpec: "True"
   fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.EntityList
   nameWithType: EntityList.EntityList
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL
+  name: BASE_URL
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_BASE_URL
+  commentId: P:RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL
+  nameWithType: EntityList.BASE_URL
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL*
+  name: BASE_URL
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_BASE_URL_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.BASE_URL
+  nameWithType: EntityList.BASE_URL
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.Browser
+  name: Browser
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_Browser
+  commentId: P:RDEV.AutoTests.Model.CompareObjects.EntityList.Browser
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.Browser
+  nameWithType: EntityList.Browser
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.Browser*
+  name: Browser
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_Browser_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.Browser
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.Browser
+  nameWithType: EntityList.Browser
 - uid: RDEV.AutoTests.Model.CompareObjects.EntityList.Entities
   name: Entities
   href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_Entities
@@ -201,6 +227,19 @@ references:
   isSpec: "True"
   fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.Entities
   nameWithType: EntityList.Entities
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable(System.Int32)
+  name: GetDataColumnFromTable(Int32)
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetDataColumnFromTable_System_Int32_
+  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable(System.Int32)
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable(System.Int32)
+  nameWithType: EntityList.GetDataColumnFromTable(Int32)
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable*
+  name: GetDataColumnFromTable
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetDataColumnFromTable_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetDataColumnFromTable
+  nameWithType: EntityList.GetDataColumnFromTable
 - uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities
   name: GetEntities()
   href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetEntities
@@ -214,19 +253,45 @@ references:
   isSpec: "True"
   fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetEntities
   nameWithType: EntityList.GetEntities
-- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity
-  name: GetLastEntity()
-  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastEntity
-  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity
-  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity()
-  nameWithType: EntityList.GetLastEntity()
-- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity*
-  name: GetLastEntity
-  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastEntity_
-  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows
+  name: GetLastRows()
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastRows
+  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows()
+  nameWithType: EntityList.GetLastRows()
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows*
+  name: GetLastRows
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetLastRows_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows
   isSpec: "True"
-  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastEntity
-  nameWithType: EntityList.GetLastEntity
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetLastRows
+  nameWithType: EntityList.GetLastRows
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML
+  name: GetTableFromHTML()
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetTableFromHTML
+  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML()
+  nameWithType: EntityList.GetTableFromHTML()
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML*
+  name: GetTableFromHTML
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_GetTableFromHTML_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.GetTableFromHTML
+  nameWithType: EntityList.GetTableFromHTML
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue(System.String,System.String)
+  name: IsSameValue(String, String)
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_IsSameValue_System_String_System_String_
+  commentId: M:RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue(System.String,System.String)
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue(System.String, System.String)
+  nameWithType: EntityList.IsSameValue(String, String)
+- uid: RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue*
+  name: IsSameValue
+  href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_IsSameValue_
+  commentId: Overload:RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.CompareObjects.EntityList.IsSameValue
+  nameWithType: EntityList.IsSameValue
 - uid: RDEV.AutoTests.Model.CompareObjects.EntityList.OdataContext
   name: OdataContext
   href: api/RDEV.AutoTests.Model.CompareObjects.EntityList.html#RDEV_AutoTests_Model_CompareObjects_EntityList_OdataContext
@@ -789,6 +854,19 @@ references:
   isSpec: "True"
   fullName: RDEV.AutoTests.Model.Types.Browser.TypeValuesSysString
   nameWithType: Browser.TypeValuesSysString
+- uid: RDEV.AutoTests.Model.Types.Browser.URL
+  name: URL
+  href: api/RDEV.AutoTests.Model.Types.Browser.html#RDEV_AutoTests_Model_Types_Browser_URL
+  commentId: P:RDEV.AutoTests.Model.Types.Browser.URL
+  fullName: RDEV.AutoTests.Model.Types.Browser.URL
+  nameWithType: Browser.URL
+- uid: RDEV.AutoTests.Model.Types.Browser.URL*
+  name: URL
+  href: api/RDEV.AutoTests.Model.Types.Browser.html#RDEV_AutoTests_Model_Types_Browser_URL_
+  commentId: Overload:RDEV.AutoTests.Model.Types.Browser.URL
+  isSpec: "True"
+  fullName: RDEV.AutoTests.Model.Types.Browser.URL
+  nameWithType: Browser.URL
 - uid: RDEV.AutoTests.Model.Types.Browser.Wait(System.Int32)
   name: Wait(Int32)
   href: api/RDEV.AutoTests.Model.Types.Browser.html#RDEV_AutoTests_Model_Types_Browser_Wait_System_Int32_
